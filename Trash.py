@@ -78,6 +78,12 @@ def remove_from_trash(list_trash, i):
     list_trash.pop(i)
 
 
+def is_list_trash_empty():
+    if len(list_trash) > 0:
+        return False
+    return True
+
+
 def is_touch_right(trash):
     row = trash["place"][0]
     col = trash["place"][1]
