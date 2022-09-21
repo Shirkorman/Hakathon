@@ -85,16 +85,15 @@ def has_arrived(trash):
     return False
 
 def is_touch_right(trash):
-    print(trash["trash_place"])
     row = trash["trash_place"][0]
     col = trash["trash_place"][1]
-    if row >=0 and row <= 8:
+    if row >=0 and row <= 9:
         if TrashBin.is_trash_fit(trash, TrashBin.list_trash_bins[0]):
             return True
-    elif row >= 9 and row <= 20:
+    elif row >= 10 and row <= 18:
          if TrashBin.is_trash_fit(trash, TrashBin.list_trash_bins[1]):
               return True
-    elif row >= 21 and row <= 26:
+    elif row >= 19 and row <= 27:
         if TrashBin.is_trash_fit(trash, TrashBin.list_trash_bins[2]):
             return True
     return False
