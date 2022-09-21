@@ -34,6 +34,8 @@ def draw_all_hearts():
 
 def delete_heart():
     if len(list_hearts) != 0:
-        list_hearts.remove(-1)
+        list_hearts.pop(-1)
+        return True
     else:
         Screen.lost()
+        return False

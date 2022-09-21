@@ -37,7 +37,7 @@ def draw_all_trash_bins():
 
 
 def is_trash_fit(trash, trash_bin):
-    if trash_bin["trash_bin_type"] == trash["trash_type"]:
+    if trash_bin["trash_bin_type"] == trash["type_trash"]:
         return True
     else:
         return False

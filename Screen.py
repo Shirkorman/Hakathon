@@ -2,14 +2,16 @@ import pygame
 import Consts
 import TrashBin
 import Heart
+import Trash
 
 screen = pygame.display.set_mode((Consts.SCREEN_WIDTH, Consts.SCREEN_HEIGHT))
 
 
-def draw_screen_game():
-    screen.fill((0, 0, 0))
+def draw_screen_game(i):
+    screen.fill((97, 224, 135))
     TrashBin.draw_all_trash_bins()
     Heart.draw_all_hearts()
+    Trash.draw_trash(Trash.list_trash[i])
     pygame.display.update()
 
 
