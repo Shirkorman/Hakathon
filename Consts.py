@@ -7,7 +7,7 @@ SCREEN_WIDTH = NUM_COL * CELL
 SCREEN_HEIGHT = NUM_ROW * CELL
 
 PLASTIC = "plastic"
-PEPER = "paper"
+PAPER = "paper"
 GLASS = "glass"
 
 LEFT_KEY = pygame.K_LEFT
