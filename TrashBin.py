@@ -5,20 +5,20 @@ import Consts
 
 purple_trash_bin = {
     "trash_bin_pic": pygame.image.load(os.path.join("GamePics", "purple_trashbin.png")),
-    "trash_bin_location": (0, 41 * 10),
+    "trash_bin_location": (0, 47 * 10),
     "trash_bin_type": Consts.GLASS
 
 }
 
 blue_trash_bin = {
     "trash_bin_pic": pygame.image.load(os.path.join("GamePics", "blue_trashbin.png")),
-    "trash_bin_location": ((8 + 4) * 10, 41 * 10),
-    "trash_bin_type": Consts.PEPER
+    "trash_bin_location": ((8 + 4) * 10, 47 * 10),
+    "trash_bin_type": Consts.PAPER
 }
 
 orange_trash_bin = {
     "trash_bin_pic": pygame.image.load(os.path.join("GamePics", "orange_trashbin.png")),
-    "trash_bin_location": ((16 + 8) * 10, 41 * 10),
+    "trash_bin_location": ((16 + 8) * 10, 47 * 10),
     "trash_bin_type": Consts.PLASTIC
 }
 
